@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300');
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    width: 1280px;
+    margin: auto;
+}
+
+/*************************HEADER IGUANA*****************************/
+header{
+    background-color: #000000;
+    line-height: 0;
+    text-align: center;
+}
+
+header h1{
+    margin: 0%;
+    line-height: 1.2;
+    font-size: 50px;
+    width: 221px;
+    padding: 7px 529px 7px 530px;
+}
+
+/*************************SECCION HISTORIA IGUANA******************/
+.historia{
+    background-color: #000000;
+    height: 348px;
+    display: flow-root;
+}
+
+.historia div{
+    float: left;
+    width: 475px;
+    height: 197px;
+    padding: 76px 53px 75px 150px;
+}
+
+.historia p{
+    text-align: left;
+    margin: 0%;
+    line-height: 1.2em;
+}
+
+.historia img{
+    height: 237px;
+    width: 399px;
+    padding: 45px 150px 66px 53px;
+}
+
+/*************************SECCION RASGOS IGUANA******************/
+.rasgos{
+    text-align: center;
+    background-color: #1E1A13;
+    display: flow-root;
+    height: 348px;
+}
+
+.rasgos h2{
+    margin: 0;
+    padding: 75px 460px 50px;
+    font-size: 40px;
+}
+
+.rasgo{
+    width: 30%;
+    padding-left: 2em;
+    float: left;
+}
+
+.rasgo p{
+    font-size: 25px;
+}
+
+/*************************SECCION GALERIA IGUANA******************/
+.galeria{
+    padding: 73px 150px; 
+    background-color: #000000;
+    display: flow-root;
+}
+
+.foto{
+    margin-left: 0.5em;
+    float: left;
+}
+
+.foto img{
+    width: 316px;
+    height: 202px;
+}
+
+/*************************FOOTER IGUANA****************************/
+footer{
+    background-color: #1E1A13;
+    text-align: center;
+    padding: 39px 1px; 
+}
+
+footer p{
+    margin: 0%;
+    font-size: 1.3em;
+    display: inline-block;
+}
+
+footer a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer a:hover{
+    color: #21c400;
+}
